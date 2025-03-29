@@ -12,13 +12,22 @@ El código simula la llegada y salida de clientes en un sistema de colas, y calc
 - **Cálculo de métricas**: Incluye métricas como el tiempo de espera en cola, el tiempo en el sistema, la longitud de la cola y la utilización de los servidores.
 - **Visualización**: Los resultados de las simulaciones se muestran a través de gráficos de líneas, barras e histogramas utilizando Matplotlib y Seaborn.
 
-## Requisitos
+## Resultados
 
-- Python 3
-- Pandas
-- Numpy
-- Matplotlib
-- Seaborn
+Tiempo en cola con un servidor. Cola markoviana
+
+![Tiempo_cola_MM1](https://github.com/user-attachments/assets/a8ba91ce-38c5-46f1-b33e-bbfe674afa9c)
+
+
+Entidades en cola y probabilidad de n entidades en sistema. Cola con tiempos de servicio normales
+
+![Entidades_cola_MG1](https://github.com/user-attachments/assets/1d07b0f6-e1e8-4080-928a-1becb8a4031c)
+
+![Entidades_sistema_MG1](https://github.com/user-attachments/assets/59e0ff1a-39af-4102-96c8-66ad41999427)
+
+Comparativo de métricas de desempeño para múltiples servidores
+
+![Metricas_multiples_servidores](https://github.com/user-attachments/assets/2eabc855-efa8-4e31-9d29-2721d858c62d)
 
 ## Ejecución
 
