@@ -6,7 +6,7 @@ Este repositorio contiene una serie de scripts en Python diseñados para resolve
 - Fuerza bruta con computación en paralelo (`multiprocessing`)
 - Optimización exacta mediante el solver IBM CPLEX y la librería `docplex`
 
-Recuerde cargar el archivo de Excel con las coordenadas de ciudades.
+Recuerde cargar el archivo de Excel con las coordenadas de ciudades al momento de ejecutar el script en Python.
 
 ![image](https://github.com/user-attachments/assets/fbaa174f-2e0c-4cef-a01b-6e9d3eeeb8b8)
 
