@@ -12,8 +12,8 @@ Recuerde cargar el archivo de Excel con las coordenadas de ciudades.
 
 
 A continuación (tabla \ref{tab:tiempos_computo}), se muestran los tiempos de cómputo para el problema de optimización, con el método de fuerza bruta con cálculos en serie y paralelo, además del tiempo de solución con Cplex.
-$$
-\begin{table}[h!]
+
+$$\begin{table}[h!]
 \centering
 \begin{tabular}{|c|c|}
 \hline
@@ -28,5 +28,4 @@ $$
 \end{tabular}
 \caption{Comparación del tiempo de cómputo para el TSP.}
 \label{tab:tiempos_computo}
-\end{table}
-$$
+\end{table}$$
