@@ -1,0 +1,24 @@
+Predicción del Precio de Energía kWh en la bolsa
+
+Este repositorio contiene código para la predicción del precio de bolsa de energía en Colombia utilizando modelos de redes neuronales Long Short-Term Memory (LSTM). Se exploran dos enfoques: un modelo univariado basado únicamente en el precio de bolsa, y un modelo multivariado que incorpora variables adicionales como la demanda real, la generación hidráulica, la generación fósil y el volumen útil de los embalses.
+
+
+Descripción
+
+El objetivo de este proyecto es desarrollar y evaluar modelos predictivos para el precio de la energía en el mercado de bolsa colombiano. La predicción precisa del precio de la energía es crucial para la toma de decisiones en el sector energético, incluyendo la planificación de la operación, la gestión de riesgos y la formulación de políticas.
+
+Se utilizan redes LSTM debido a su capacidad para manejar secuencias de datos y capturar dependencias a largo plazo, características esenciales en las series de tiempo financieras y energéticas.
+
+## Modelos Implementados
+
+1.  Modelo LSTM Univariado:
+    * Utiliza únicamente la serie histórica del precio de bolsa.
+    * Realiza una transformación logarítmica de los datos para estabilizar la varianza.
+    * Implementa una descomposición de la serie de tiempo para analizar tendencia, estacionalidad y residuos.
+    * La arquitectura LSTM incluye capas de LSTM, BatchNormalization y Dropout para mejorar el rendimiento y prevenir el sobreajuste.
+    * Se utiliza TimeSeriesSplit para la división de datos de entrenamiento y validación, y se explora también la validación cruzada k-folds.
+
+2.  Modelo LSTM Multivariado:
+    * Incorpora Demanda real, Generación hidráulica, Generacion fósil, Volumen útil y Precio_bolsa.
+    * Aplica transformaciones logarítmicas a ciertas variables para normalizar su distribución.
+    * La arquitectura LSTM es similar a la univariada, pero adaptada para múltiples entradas.
